@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "dream venue";
+    src: url(../font/FontsFree-Net-Dream-Avenue.ttf)}
+@font-face {
+        font-family: "ttdrugs";
+        src: url(../TTDRUGSFONT/TT-Drugs-Trial-Regular-BF66880905ce62d.ttf)}
+:root{
+    --cor-branca:#ffff;
+    --cor-preta:#0000;
+    --cor-letra:#eeeee6;
+    --fonte-principal:"dream venue";
+    --cor-de-fundo:#0e0a0a;
+    --fonte-ttdrugs:var(--fonte-ttdrugs);
+    --cor-subtexto:#aba9a8;
+    --titulo-size:5.375rem;
+    --font-size-paragrafo:0.875rem;
+}
+main{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-letra);
+    font-family: var(--fonte-ttdrugs);
+    line-height: 1.5;
+}
+.first-content{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4rem;
+}
+
+.Content-text{
+    padding:5rem;
+    margin: 7rem;
+}
+.titulo1{
+    font-family: var(--fonte-principal);
+    font-size: var(--titulo-size);
+    margin-bottom: 4rem ;
+}
+.subtitulo1{
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.paragrafo1{
+    color: var(--cor-subtexto);
+    margin-bottom: 5rem;
+    font-size: var(--font-size-paragrafo);
+}
+
+.content-img{
+    background-image: url(../imgs/criancasbrincandonarua.jpg);
+    background-repeat: no-repeat;
+    padding: 10rem;
+    width: 45%;
+    height: 50%;
+    border-radius: 35%;
+}
+.botao{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-letra);
+    font-size: 12px;
+    padding: 1rem;
+    border: 0.2rem solid var(--cor-letra);
+    border-radius: 6rem;
+}
+/*-------------------------------------------------------*/
+.second-content{
+    margin: 4rem 5rem ;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titulo2{
+    font-family: var(--fonte-principal);
+    font-size: 86px;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.subtitulo2{
+    font-size: 2rem;
+    font-family: var(--fonte-ttdrugs);
+    margin-bottom: 1rem;
+    width: 50%;
+
+}
+.paragrafo2{
+    font-size: 14px;
+    color: var(--cor-subtexto);
+    width: 50%;
+
+}
+.video-principal{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    height: 50%;
+}
+/*---------------------------------------------------------------------------------------------*/
+.thrid-content{
+    text-align: center;
+    margin-top: 5rem;
+}
+.titulo3{
+    text-transform: uppercase;
+    font-size: var(--titulo-size);
+}
+.swiper-wrapper{
+    margin-bottom: 5rem;
+    padding: 4rem;
+
+}
+
+.image-slide{
+    height: 30rem;
+    width: 30rem;
+}
+/*---------------------------------------------------------------------------------------------*/
+.swiper-button-prev, .swiper-button-next{
+    background-color: var(--cor-subtexto);
+    border: 1rem solid var(--cor-subtexto);
+    border-radius: 100%;
+}
+/*-------------------------------------------------------------------------------------------------*/
+.quarto-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 4rem;
+    justify-content: space-between;
+}
+.image-4{
+    width: 40rem;
+    height: 40rem;
+}
+.titulo4{
+    margin: 3rem 5rem;
+    font-size: var(--titulo-size);
+    text-transform: uppercase;
+}
+.logos{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
