@@ -52,7 +52,7 @@ main{
     background-repeat: no-repeat;
     padding: 10rem;
     width: 45%;
-    height: 50%;
+    height: 45%;
     border-radius: 35%;
 }
 .botao{
@@ -76,7 +76,7 @@ main{
 
 .titulo2{
     font-family: var(--fonte-principal);
-    font-size: 86px;
+    font-size: var(--titulo-size);
     text-transform: uppercase;
     margin-bottom: 3rem;
 }
@@ -147,4 +147,38 @@ main{
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
+}
+.image-logo{
+    padding: 1rem;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+footer{
+    background-color: var(--cor-de-fundo);
+    padding: 4rem;
+    text-align: center;
+}
+.copyright{
+    font-size: 1rem;
+    color: var(--cor-letra);
+    font-family: var(--fonte-ttdrugs);
+}
+.icone{
+    color: var(--cor-letra);
+    text-decoration: none;
+}
+
+@media screen and (max-width:1024px) {
+    .first-content{
+        display: flex;
+    }
+    .Content-text{
+        padding: 3rem;
+
+    }
+    .content-img{
+        background-image: none;
+
+    }
+    
 }
